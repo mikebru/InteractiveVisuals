@@ -5,10 +5,10 @@
 #include <SPI.h>
 
 // Here's how to control the LEDs from any two pins:
-#define DATAPIN 2
+#define DATAPIN 7
 
 // How many leds in your strip?
-#define NUM_LEDS 240
+#define NUM_LEDS 480
 
 // Define the array of leds
 CRGB leds[NUM_LEDS];
